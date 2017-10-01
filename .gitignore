@@ -1,0 +1,5 @@
+# ignore directories named 'foo' anywhere
+**/foo
+
+# ignore jupyter notebook checkpoint directories anywhere
+**/.ipynb_checkpoints
