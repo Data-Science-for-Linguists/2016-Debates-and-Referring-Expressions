@@ -1,4 +1,6 @@
-##### Paige Haring              peh40@pitt.edu              Project Description
+##### Paige Haring
+##### peh40@pitt.edu
+##### Project Description
 
 ## Gendered Name-calling in the 2016 US Election
 
