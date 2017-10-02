@@ -1,4 +1,4 @@
-##October 1, 2017
+## October 1, 2017
 
 I've created my project repo, downloaded the datasets I'll need for my analysis, and developed a project plan. I manually copied and pasted the debated transcripts into text files since there were only four of them. I began poking around the data that I have and realized I have some clean up to do.
 
