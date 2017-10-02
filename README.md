@@ -7,3 +7,7 @@ Paige Haring
 University of Pittsburgh
 
 peh40@pitt.edu
+
+Data in DT-Speech and HC-Speech comes from  [Brendan Mcmanus (https://github.com/brendanmmcmanus/trump_speeches)]
+
+Data in Debates is from [The American Presidency Project at UC Santa Barbara (http://www.presidency.ucsb.edu/debates.php)]
