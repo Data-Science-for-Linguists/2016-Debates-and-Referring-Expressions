@@ -8,3 +8,11 @@ I've created my project repo, downloaded the datasets I'll need for my analysis,
   - annotations for who is speaking, applause, laughter, etc.
 - Reformat text files so they're all uniform
 - Decide whether to stick with just debates, or all speeches
+
+## October 12, 2017
+I cleaned up my debate text files and organized them into data frames, then saved them as CSV files.
+The data frames include a column about the date of the debate, which debate it is, the location of the debate, the source url of the transcript, the speaker, the sentence spoken, and any names or referring expressions used in that sentence. Each debate is in a separate data frame and CSV file for now. I did all of the manual RE annotation for the debates.
+
+### Tasks
+- Clean up debate 2 (it was a town hall, so some of the questions got formatted in a weird way)
+- Decide whether or not to use other speeches and if so, which ones?
