@@ -27,3 +27,15 @@ The data frames include a column about the date of the debate, which debate it i
 - Try out other NER annotators
 - Figure out how to get the NER annotations into the data frames I made
 - Analysis
+
+## October 25, 2017
+- Processed all of the primary debates (and general for a second time in a different way) and cleaned them up
+- Saved all of the clean data frames to csv and included them in data/csv folder
+- Reorganized data in folders
+- Tried spaCy NER annotation
+
+### Tasks
+- NER annotation on all debates
+- Figure out how to link entities
+- Look into analysis
+- Update project plan
