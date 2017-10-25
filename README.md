@@ -8,9 +8,10 @@ University of Pittsburgh
 
 peh40@pitt.edu
 
-Data in DT-Speech and HC-Speech comes from  [Brendan McManus](https://github.com/brendanmmcmanus/trump_speeches)
+Data in Debates is from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php) with citations below.
 
-Data in Debates is from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php)
+My uses for this data fall under the terms of fair use, as I am transforming them from their original transcript form and adding linguistic annotation and analysis for scholarship purposes. The transcripts of these debates can be found from other sources as well.
+
 
 Presidential Candidates Debates: "Presidential Debate at the University of Nevada in Las Vegas," October 19, 2016. Online by Gerhard Peters and John T. Woolley, The American Presidency Project. http://www.presidency.ucsb.edu/ws/?pid=119039.
 
