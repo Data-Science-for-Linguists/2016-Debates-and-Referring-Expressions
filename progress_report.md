@@ -16,3 +16,14 @@ The data frames include a column about the date of the debate, which debate it i
 ### Tasks
 - Clean up debate 2 (it was a town hall, so some of the questions got formatted in a weird way)
 - Decide whether or not to use other speeches and if so, which ones?
+
+## October 24, 2017
+- Added the transcript txt files for the primary debates
+- Made all data publicly available
+- Modified README to explain why I think I can make all of my data public (fair use)
+- Looked into NER annotators (nltk's) and tried it out on the first debate's transcript
+
+### Tasks
+- Try out other NER annotators
+- Figure out how to get the NER annotations into the data frames I made
+- Analysis
