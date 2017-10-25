@@ -3,6 +3,3 @@
 
 # ignore jupyter notebook checkpoint directories anywhere
 **/.ipynb_checkpoints
-
-#ignore directories named 'data' anywhere
-**/data
