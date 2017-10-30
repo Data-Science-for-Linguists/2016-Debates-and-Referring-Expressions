@@ -2,7 +2,7 @@
 
 I've created my project repo, downloaded the datasets I'll need for my analysis, and developed a project plan. I manually copied and pasted the debated transcripts into text files since there were only four of them. I began poking around the data that I have and realized I have some clean up to do.
 
-#### Tasks
+### Tasks
 - Manually annotate for referring expressions
 - Clean up extra data
   - annotations for who is speaking, applause, laughter, etc.
@@ -36,6 +36,15 @@ The data frames include a column about the date of the debate, which debate it i
 
 ### Tasks
 - NER annotation on all debates
+- Figure out how to link entities
+- Look into analysis
+- Update project plan
+
+## October 29, 2017
+- Did rough NER annotation on each data frame
+- Set label of each NER tree to the speaker
+
+### Tasks
 - Figure out how to link entities
 - Look into analysis
 - Update project plan
