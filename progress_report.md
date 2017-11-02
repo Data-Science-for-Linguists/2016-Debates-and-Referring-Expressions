@@ -54,3 +54,11 @@ The data frames include a column about the date of the debate, which debate it i
 - Updated progress report
 - Cleaned up pipeline
 - Made good progress on entity linking in NER trees
+
+## November 2, 2017
+- Mapped RE to entity it was referring too
+- Really basic analysis
+
+### Tasks
+- Fix under-labelling
+- More linguistic analysis
