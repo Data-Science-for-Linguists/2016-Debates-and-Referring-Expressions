@@ -48,3 +48,9 @@ The data frames include a column about the date of the debate, which debate it i
 - Figure out how to link entities
 - Look into analysis
 - Update project plan
+
+## November 1, 2017
+- Updated license and justified choice
+- Updated progress report
+- Cleaned up pipeline
+- Made good progress on entity linking in NER trees
