@@ -8,10 +8,16 @@ University of Pittsburgh
 
 peh40@pitt.edu
 
-Data in Debates is from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php) with citations below.
+### Dataset
+The data for this project is included in the data/Debates folder. The transcripts of the files are all saved as text files in the data/Debates/transcripts folder. These transcripts are from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php) with citations below.
+
+In the data/Debates/csv folder, I have included a comma separated value file for each debate transcript where the values are the date of the debate, the type of debate (general, Democratic primary, or Republican primary), the speaker, the utterance, and NER annotation of the utterance in the form of a tree in the last value. It also includes debate1_sents_re.csv, debate2_sents_re.csv, debate3_sents_re.csv which have a column labeled RE. The values in this column are manually annotated referring expressions. The transcripts represented by these csvs are the first, second and third general election debates.
+
+### NER Trees
+The NER trees in each csv are set up as follows: The label of the tree represents the speaker of the utterance. The label for each of the tagged named entities within the tree is used to link the annotation to the person it is referring to.
+
 
 My uses for this data fall under the terms of fair use, as I am transforming them from their original transcript form and adding linguistic annotation and analysis for scholarship purposes. The transcripts of these debates can be found from other sources as well.
-
 
 Presidential Candidates Debates: "Presidential Debate at the University of Nevada in Las Vegas," October 19, 2016. Online by Gerhard Peters and John T. Woolley, The American Presidency Project. http://www.presidency.ucsb.edu/ws/?pid=119039.
 
