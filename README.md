@@ -16,7 +16,7 @@ In the data/Debates/csv folder, I have included a comma separated value file for
 ### NER Trees
 The NER trees in each csv are set up as follows: The label of the tree represents the speaker of the utterance. The label for each of the tagged named entities within the tree is used to link the annotation to the person it is referring to.
 
-
+### Citations
 My uses for this data fall under the terms of fair use, as I am transforming them from their original transcript form and adding linguistic annotation and analysis for scholarship purposes. The transcripts of these debates can be found from other sources as well.
 
 Presidential Candidates Debates: "Presidential Debate at the University of Nevada in Las Vegas," October 19, 2016. Online by Gerhard Peters and John T. Woolley, The American Presidency Project. http://www.presidency.ucsb.edu/ws/?pid=119039.
