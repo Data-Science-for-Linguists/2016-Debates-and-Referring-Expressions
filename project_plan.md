@@ -2,7 +2,7 @@
 ##### peh40@pitt.edu
 ##### Project Description
 
-##What Did You Call Me?
+## What Did You Call Me?
 ### Referring Expressions, Titles, and Name-calling in the 2016 US Election
 
 This project will use transcriptions of the debates from the primary and general 2016 presidential election to do linguistic analysis on the speech of each participant regarding how they refer to their opponent(s). This document describes where I will be collecting data from, and how I will analyze this election discourse.
