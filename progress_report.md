@@ -1,32 +1,25 @@
-## October 1, 2017
-
-I've created my project repo, downloaded the datasets I'll need for my analysis, and developed a project plan. I manually copied and pasted the debated transcripts into text files since there were only four of them. I began poking around the data that I have and realized I have some clean up to do.
-
-### Tasks
-- Manually annotate for referring expressions
-- Clean up extra data
-  - annotations for who is speaking, applause, laughter, etc.
-- Reformat text files so they're all uniform
-- Decide whether to stick with just debates, or all speeches
-
-## October 12, 2017
-I cleaned up my debate text files and organized them into data frames, then saved them as CSV files.
-The data frames include a column about the date of the debate, which debate it is, the location of the debate, the source url of the transcript, the speaker, the sentence spoken, and any names or referring expressions used in that sentence. Each debate is in a separate data frame and CSV file for now. I did all of the manual RE annotation for the debates.
+## November 2, 2017
+- Mapped RE to entity it was referring too
+- Really basic analysis
 
 ### Tasks
-- Clean up debate 2 (it was a town hall, so some of the questions got formatted in a weird way)
-- Decide whether or not to use other speeches and if so, which ones?
+- Fix under-labelling
+- More linguistic analysis
 
-## October 24, 2017
-- Added the transcript txt files for the primary debates
-- Made all data publicly available
-- Modified README to explain why I think I can make all of my data public (fair use)
-- Looked into NER annotators (nltk's) and tried it out on the first debate's transcript
+## November 1, 2017
+- Updated license and justified choice
+- Updated progress report
+- Cleaned up pipeline
+- Made good progress on entity linking in NER trees
+
+## October 29, 2017
+- Did rough NER annotation on each data frame
+- Set label of each NER tree to the speaker
 
 ### Tasks
-- Try out other NER annotators
-- Figure out how to get the NER annotations into the data frames I made
-- Analysis
+- Figure out how to link entities
+- Look into analysis
+- Update project plan
 
 ## October 25, 2017
 - Processed all of the primary debates (and general for a second time in a different way) and cleaned them up
@@ -40,25 +33,32 @@ The data frames include a column about the date of the debate, which debate it i
 - Look into analysis
 - Update project plan
 
-## October 29, 2017
-- Did rough NER annotation on each data frame
-- Set label of each NER tree to the speaker
+## October 24, 2017
+- Added the transcript txt files for the primary debates
+- Made all data publicly available
+- Modified README to explain why I think I can make all of my data public (fair use)
+- Looked into NER annotators (nltk's) and tried it out on the first debate's transcript
 
 ### Tasks
-- Figure out how to link entities
-- Look into analysis
-- Update project plan
+- Try out other NER annotators
+- Figure out how to get the NER annotations into the data frames I made
+- Analysis
 
-## November 1, 2017
-- Updated license and justified choice
-- Updated progress report
-- Cleaned up pipeline
-- Made good progress on entity linking in NER trees
-
-## November 2, 2017
-- Mapped RE to entity it was referring too
-- Really basic analysis
+## October 12, 2017
+I cleaned up my debate text files and organized them into data frames, then saved them as CSV files.
+The data frames include a column about the date of the debate, which debate it is, the location of the debate, the source url of the transcript, the speaker, the sentence spoken, and any names or referring expressions used in that sentence. Each debate is in a separate data frame and CSV file for now. I did all of the manual RE annotation for the debates.
 
 ### Tasks
-- Fix under-labelling
-- More linguistic analysis
+- Clean up debate 2 (it was a town hall, so some of the questions got formatted in a weird way)
+- Decide whether or not to use other speeches and if so, which ones?
+
+## October 1, 2017
+
+I've created my project repo, downloaded the datasets I'll need for my analysis, and developed a project plan. I manually copied and pasted the debated transcripts into text files since there were only four of them. I began poking around the data that I have and realized I have some clean up to do.
+
+### Tasks
+- Manually annotate for referring expressions
+- Clean up extra data
+  - annotations for who is speaking, applause, laughter, etc.
+- Reformat text files so they're all uniform
+- Decide whether to stick with just debates, or all speeches
