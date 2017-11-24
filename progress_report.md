@@ -1,3 +1,7 @@
+## November 19, 2017
+- Pulled in missed titles to the trees
+- Worked on a function to pull in all missed RE's
+
 ## November 2, 2017
 - Mapped RE to entity it was referring too
 - Really basic analysis
