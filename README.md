@@ -2,6 +2,8 @@
 
 This repository contains the data and project description of my linguistic analysis of the 2016 US Presidential election. Please see the project plan for more information!
 
+You can find my visitor's log [here](https://github.com/Data-Science-for-Linguists/Shared-Repo/blob/master/todo10_visitors_log/visitors_log_paige.md).
+
 Paige Haring
 
 University of Pittsburgh
