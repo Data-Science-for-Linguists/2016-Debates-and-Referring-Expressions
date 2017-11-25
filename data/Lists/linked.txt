@@ -364,3 +364,21 @@ Rosie O'Donnell;Rosie O'Donnell
 James Comey;James Comey
 Jim Comey;James Comey
 Comey;James Comey
+Madame;TITLE
+Semator;TITLE
+Sheriff;TITLE
+Chairman;TITLE
+Senator;TITLE
+Mister;TITLE
+Mr.;TITLE
+Sir;TITLE
+Lady;TITLE
+Speaker;TITLE
+Dr.;TITLE
+Doctor;TITLE
+Secretary;Hillary Clinton
+Governor;TITLE
+Mrs.;TITLE
+Miss;TITLE
+President;TITLE
+Congressman;TITLE
