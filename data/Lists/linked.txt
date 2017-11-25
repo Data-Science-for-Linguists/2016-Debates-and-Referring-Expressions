@@ -1,15 +1,22 @@
 Sean Hannity;Sean Hannity
+Sean;Sean Hannity
+Hannity;Sean Hannity
 Jake Tapper;Jake Tapper
+Tapper;Jake Tapper
+Jake;Jake Tapper
 Florida Senator;Marco Rubio
 Hill;Hillary Clinton
 Hey Ted;Ted Cruz
 Bibi Netanyahu;Benjamin Netanyahu
-Madame;TITLE
 Mr. Cruz;Ted Cruz
+Ted;Ted Cruz
+Cruz;Ted Cruz
 Bret;Bret Baier
+Baier;Bret Baier
 John Quincy Adams;John Quincy Adams
 Yasser Arafat;Yasser Arafat
 Rubio;Marco Rubio
+Marco;Marco Rubio
 Bobby Jindal;Bobby Jindal
 Andrea;Andrea Mitchell
 Ohio Governor;John Kasich
@@ -17,25 +24,39 @@ Deborah Wasserman Schultz;Deborah Wasserman Schultz
 Ted Cruz;Ted Cruz
 Barak Obama America;Barack Obama
 Jim;Jim Webb
+Webb;Jim Webb
 Shultz;Deborah Wasserman Schultz
 Fiorina;Carly Fiorina
+Carly;Carly Fiorina
 Mayor Giuliani;Rudy Giuliani
+Giuliani;Rudy Giuliani
+Rudy;Rudy Giuliani
 Miss Piggy;Alicia Machado
 Snowden;Edward Snowden
 Malley;Martin O'Malley
+O'Malley;Martin O'Malley
+Martin;Martin O'Malley
 Martha;Martha Raddatz
+Raddatz;Martha Raddatz
 Dana;Dana Bash
 Hillary Rodham;Hillary Clinton
 John Mccain;John McCain
+McCain;John McCain
 Senator Lindsey Graham;Lindsey Graham
+Lindsey;Lindsey Graham
+Graham;Lindsey Graham
 Barbara Bush;Barbara Bush
 Lyndon Johnson;Lyndon Johnson
-Semator;TITLE
 Martin;Martin O'Malley
 Senator Webb;Jim Webb
 Lester;Lester Holt
+Holt;Lester Holt
+Lester Holt;Lester Holt
 David;David Muir
+Muir;David Muir
+David Muir;David Muir
 Walker;Scott Walker
+Scott Walker;Scott Walker
 Louisiana Governor Bobby Jindal;Bobby Jindal
 John Podesta;John Podesta
 Mr. America;NICKNAME
@@ -46,13 +67,13 @@ Fidel Castro;Fidel Castro
 Ted;Ted Cruz
 Abraham Lincoln;Abraham Lincoln
 Biden;Joe Biden
-Sheriff;TITLE
 Speaker Paul Ryan;Paul Ryan
 Kerry;John Kerry
 Katie O'Malley;Katie O'Malley
 Michelle Obama;Michelle Obama
 Bill Clinton;Bill Clinton
 Maria Bartiromo;Maria Bartiromo
+Bartiromo;Maria Bartiromo
 Mr. Putin;Vladimir Putin
 Moammar Gadhafi;Muammar Gaddafi
 Omran;Omran Daqneesh
@@ -65,13 +86,16 @@ Joe Arpaio;Joe Arpaio
 Pope Francis;Pope Francis
 Maria Celesta Arrasas;Maria Celeste Arraras
 Rand Paul;Rand Paul
+Rand;Rand Paul
+Paul;Rand Paul
 Neurosurgeon;Ben Carson
 Andrew Cuomo;Andrew Cuomo
+Cuomo;Andrew Cuomo
 George Washington;George Washington
-Ron Paul;Ron Paul
 Kentucky Senator Rand Paul;Rand Paul
 Jim Webb;Jim Webb
 Ronald Regan;Ronald Reagan
+Regan;Ronald Reagan
 Governor Martin;Martin O'Malley
 George W. Bush;George W. Bush
 Sonia Sotomayor;Sonia Sotomayor
@@ -94,7 +118,6 @@ Antonin Scalia;Antonin Scalia
 Reagan;Ronald Reagan
 Harry Truman;Harry Truman
 Chuck;Chuck Todd
-Chairman;TITLE
 Stalin;Joseph Stalin
 Freddie Gray;Freddie Gray
 Qadafi;Muammar Gaddafi
@@ -134,6 +157,7 @@ Marco;Marco Rubio
 Doctor;Ben Carson
 Businessman;Donald Trump
 Elizabeth Warren;Elizabeth Warren
+Warren;Elizabeth Warren
 Donald Trump;Donald Trump
 Rosa Parks;Rosa Parks
 Hannity;Sean Hannity
@@ -142,7 +166,6 @@ Andrea Mitchell;Andrea Mitchell
 Al Gore;Al Gore
 Nancy Reagan;Nancy Reagan
 Abigail Adams;Abigail Adams
-Senator;TITLE
 Senator Clinton;Senator Clinton
 John McCain;John McCain
 Bashar Assad;Bashar al-Assad
@@ -157,6 +180,8 @@ Senator Paul;Rand Paul
 Kimberley;Kimberley Strassel
 George Herbert Walker Bush;George H. W. Bush
 Mike Huckabee;Mike Huckabee
+Mike;Mike Huckabee
+Huckabee;Mike Huckabee
 Lindsey Graham;Lindsey Graham
 Dylann Roof;Dylann Roof
 Kim Jung Un;Kim Jong Un
@@ -212,8 +237,12 @@ Chuck Schumer;Chuck Schumer
 Franklin Delano Roosevelt;Franklin D. Roosevelt
 Cuomo;Chris Cuomo
 Carl Quintanilla;Carl Quintanilla
-Mister;TITLE
+Quintanilla;Carl Quintanilla
+Carl;Carl Quintanilla
 Ben Carson;Ben Carson
+Ben;Ben Carson
+Dr. Ben Carson;Ben Carson
+Dr. Carson;Ben Carson
 Senator Obama;Barack Obama
 Graham;Lindsey Graham
 Bernie;Bernie Sanders
@@ -249,10 +278,9 @@ Kennedy;John Kennedy
 Bush;Jeb Bush
 Obama;Barack Obama
 Kim Jong-Un;Kim Jong Un
-Mr.;TITLE
+Kim Jong Un;Kim Jong Un
 Hugh Hewitt;Hugh Hewitt
 Senator Graham;Lindsey Graham
-Angel;TITLE
 Rodham Clinton;Hillary Clinton
 Nelson Mandela;Nelson Mandela
 Carson;Ben Carson
@@ -260,14 +288,13 @@ James Comey;James Comey
 Govenor Christie;Chris Christie
 Hosni Mubarak;Hosni Mubarak
 Don Lemon;Don Lemon
+Don; Don Lemon
 Woodrow Wilson;Woodrow Wilson
-Sir;TITLE
 Hillary Clinton;Hillary Clinton
 Mitch McConnell;Mitch McConnell
 Senator Sander;Bernie Sanders
 Mitt Romney;Mitt Romney
 Vermont Bernie Sanders;Bernie Sanders
-Lady;TITLE
 Nikki;Nikki Haley
 Michael Bloomberg;Michael Bloomberg
 Mayor Bloomberg;Michael Bloomberg
@@ -282,8 +309,10 @@ Vladimir Putin;Vladimir Putin
 Governor Christie;Chris Christie
 Cruz;Ted Cruz
 Miss Housekeeping;Alicia Machado
+Alicia;Alicia Machado
 Sandra Bland;Sandra Bland
 Mr. Assad;Bashar al-Assad
+Jong-Un;Kim Jong-Un
 Tamir Rice;Tamir Rice
 Donald Trump Iraq;Donald Trump
 Clinton;Hillary Clinton
@@ -295,7 +324,7 @@ Tip;Tip O'Neill
 Senator John McCain;John McCain
 Senator Sessions;Jeff Sessions
 Neil Cavuto;Neil Cavuto
-Speaker;TITLE
+Neil;Neil Cavuto
 Hitler;Adolf Hitler
 Eric Garner;Eric Garner
 Carly Fiorina;Carly Fiorina
@@ -332,3 +361,6 @@ Muammar Gaddafi;Muammar Gaddafi
 Texas Senator;Ted Cruz
 Senator Bernie Sanders;Bernie Sanders
 Rosie O'Donnell;Rosie O'Donnell
+James Comey;James Comey
+Jim Comey;James Comey
+Comey;James Comey
