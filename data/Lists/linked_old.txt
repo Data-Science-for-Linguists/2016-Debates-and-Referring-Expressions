@@ -1,0 +1,334 @@
+Sean Hannity;Sean Hannity
+Jake Tapper;Jake Tapper
+Florida Senator;Marco Rubio
+Hill;Hillary Clinton
+Hey Ted;Ted Cruz
+Bibi Netanyahu;Benjamin Netanyahu
+Madame;TITLE
+Mr. Cruz;Ted Cruz
+Bret;Bret Baier
+John Quincy Adams;John Quincy Adams
+Yasser Arafat;Yasser Arafat
+Rubio;Marco Rubio
+Bobby Jindal;Bobby Jindal
+Andrea;Andrea Mitchell
+Ohio Governor;John Kasich
+Deborah Wasserman Schultz;Deborah Wasserman Schultz
+Ted Cruz;Ted Cruz
+Barak Obama America;Barack Obama
+Jim;Jim Webb
+Shultz;Deborah Wasserman Schultz
+Fiorina;Carly Fiorina
+Mayor Giuliani;Rudy Giuliani
+Miss Piggy;Alicia Machado
+Snowden;Edward Snowden
+Malley;Martin O'Malley
+Martha;Martha Raddatz
+Dana;Dana Bash
+Hillary Rodham;Hillary Clinton
+John Mccain;John McCain
+Senator Lindsey Graham;Lindsey Graham
+Barbara Bush;Barbara Bush
+Lyndon Johnson;Lyndon Johnson
+Semator;TITLE
+Martin;Martin O'Malley
+Senator Webb;Jim Webb
+Lester;Lester Holt
+David;David Muir
+Walker;Scott Walker
+Louisiana Governor Bobby Jindal;Bobby Jindal
+John Podesta;John Podesta
+Mr. America;NICKNAME
+Dana Bash;Dana Bash
+Brett;Bret Baier
+Veto Corleone;NICKNAME
+Fidel Castro;Fidel Castro
+Ted;Ted Cruz
+Abraham Lincoln;Abraham Lincoln
+Biden;Joe Biden
+Sheriff;TITLE
+Speaker Paul Ryan;Paul Ryan
+Kerry;John Kerry
+Katie O'Malley;Katie O'Malley
+Michelle Obama;Michelle Obama
+Bill Clinton;Bill Clinton
+Maria Bartiromo;Maria Bartiromo
+Mr. Putin;Vladimir Putin
+Moammar Gadhafi;Muammar Gaddafi
+Omran;Omran Daqneesh
+Alicia Machado;Alicia Machado
+Captain Khan;Humayun Khan
+Wolf;Wolf Blitzer
+Trump;Donald Trump
+Bin Laden;Osama bin Laden
+Joe Arpaio;Joe Arpaio
+Pope Francis;Pope Francis
+Maria Celesta Arrasas;Maria Celeste Arraras
+Rand Paul;Rand Paul
+Neurosurgeon;Ben Carson
+Andrew Cuomo;Andrew Cuomo
+George Washington;George Washington
+Ron Paul;Ron Paul
+Kentucky Senator Rand Paul;Rand Paul
+Jim Webb;Jim Webb
+Ronald Regan;Ronald Reagan
+Governor Martin;Martin O'Malley
+George W. Bush;George W. Bush
+Sonia Sotomayor;Sonia Sotomayor
+Kasich;John Kasich
+Rick;Rick Santorum
+Nixon;Richard Nixon
+Megyn;Megyn Kelly
+Chris;Chris Christie
+Bashar;Bashar al-Assad
+Lady Justice;NICKNAME
+Teddy Roosevelt;Theodore Roosevelt
+Lady Liberty;NICKNAME
+Martha Raddatz;Martha Raddatz
+Pelosi;Nancy Pelosi
+Abraham;Abraham Lincoln
+Brett Baier;Bret Baier
+Maria Celeste;Maria Celeste Arraras
+Flynn;Michael Flynn
+Antonin Scalia;Antonin Scalia
+Reagan;Ronald Reagan
+Harry Truman;Harry Truman
+Chuck;Chuck Todd
+Chairman;TITLE
+Stalin;Joseph Stalin
+Freddie Gray;Freddie Gray
+Qadafi;Muammar Gaddafi
+Mother Theresa;NICKNAME
+Chelsea;Chelsea Clinton
+Carly;Carly Fiorina
+Lyin;Ted Cruz
+Major Garrett;Major Garrett
+Sanders;Bernie Sanders
+Senator Sanders—30;Bernie Sanders
+Laden;Osama bin Laden
+Jorge;Jorge Ramos
+Bret Baier;Bret Baier
+John Kasich;John Kasich
+Ashraf Ghani;Ashraf Ghani
+Scott Walker;Scott Walker
+Trayvon Martin;Trayvon Martin
+Eric;Eric Trump
+Frank Delano Roosevelt;Franklin D. Roosevelt
+Adams;John Adams
+Chris Christie;Chris Christie
+Jeb Bush;Jeb Bush
+Florida Governor Jeb Bush;Jeb Bush
+Donald;Donald Trump
+George W.;George W. Bush
+Governor O'Malley;Martin O'Malley
+al-Sisi;Abdel Fattah el-Sisi
+Winston Churchill;Winston Churchill
+Regan;Ronald Reagan
+Scalia;Antonin Scalia
+Joe Biden;Joe Biden
+Alexander Hamilton;Alexander Hamilton
+Bernie Sanders;Bernie Sanders
+Kim Jong Un;Kim Jong Un
+Senator Ted Cruz;Ted Cruz
+Marco;Marco Rubio
+Doctor;Ben Carson
+Businessman;Donald Trump
+Elizabeth Warren;Elizabeth Warren
+Donald Trump;Donald Trump
+Rosa Parks;Rosa Parks
+Hannity;Sean Hannity
+Nikki Haley;Nikki Haley
+Andrea Mitchell;Andrea Mitchell
+Al Gore;Al Gore
+Nancy Reagan;Nancy Reagan
+Abigail Adams;Abigail Adams
+Senator;TITLE
+Senator Clinton;Senator Clinton
+John McCain;John McCain
+Bashar Assad;Bashar al-Assad
+Jim Comey;James Comey
+Mark Zuckerburg;Mark Zuckerburg
+Jeb;Jeb Bush
+Speaker Boehner;John Boehner
+Joe;Joe Biden
+Uncle Joe;Joe Biden
+Senator Barack Obama;Barack Obama
+Senator Paul;Rand Paul
+Kimberley;Kimberley Strassel
+George Herbert Walker Bush;George H. W. Bush
+Mike Huckabee;Mike Huckabee
+Lindsey Graham;Lindsey Graham
+Dylann Roof;Dylann Roof
+Kim Jung Un;Kim Jong Un
+Madam Secretary;Hillary Clinton
+Senator Elizabeth Warren;Elizabeth Warren
+Jake;Jake Tapper
+Webb;Jim Webb
+Teddy;Theodore Roosevelt
+Vladimir;Vladimir Putin
+Gadhafi;Muammar Gaddafi
+Mr. Trump;Donald Trump
+James Carter;James Carter
+Rush Limbaugh;Rush Limbaugh
+Benjamin Netanyahu;Benjamin Netanyahu
+Paul;Rand Paul
+Hillary;Hillary Clinton
+Senator Marco Rubio;Marco Rubio
+Osama;Osama bin Laden
+King Abdullah;Abdullah
+Megyn Kelly;Megyn Kelly
+Kim Davis;Kim Davis
+Texas Senator Ted Cruz;Ted Cruz
+Romney;Mitt Romney
+Wisconsin Governor Scott Walker;Scott Walker
+Donald J. Trump;Donald Trump
+Mr. Bush;Jeb Bush
+Maria;Maria Celeste Arraras
+Businesswoman;Carly Fiorina
+Ivanka;Ivanka Trump
+Michael Brown;Michael Brown
+Florida Governor;Jeb Bush
+John Kennedy;John Kennedy
+Haley;Nikki Haley
+Podesta;John Podesta
+Madam;Hillary Clinton
+Christie;Chris Christie
+Lester Holt;Lester Holt
+Jersey Governor Chris Christie;Chris Christie
+Sheriff Joe;Joe Arpaio
+Churchill;Winston Churchill
+Herbert Walker Bush;George H. W. Bush
+Florida Senator Marco Rubio;Marco Rubio
+Martin O'Malley;Martin O'Malley
+Mr. T;NICKNAME
+Carter;James Carter
+Mr. Average;NICKNAME
+Huckabee;Mike Huckabee
+Robin Hood;NICKNAME
+Anderson;Anderson Cooper
+Anderson Cooper;Anderson Cooper
+Saddam Hussein;Saddam Hussein
+Chuck Schumer;Chuck Schumer
+Franklin Delano Roosevelt;Franklin D. Roosevelt
+Cuomo;Chris Cuomo
+Carl Quintanilla;Carl Quintanilla
+Mister;TITLE
+Ben Carson;Ben Carson
+Senator Obama;Barack Obama
+Graham;Lindsey Graham
+Bernie;Bernie Sanders
+Senator McCain;John McCain
+Lincoln;Lincoln Chafee
+Mr. Trmup;Donald Trump
+Abigal Adams;Abigail Adams
+Jefferson;Thomas Jefferson
+Saddam;Saddam Hussein
+Ken Bone;Ken Bone
+Ronald;Ronald Reagan
+Debbie Wasserman Schultz;Deborah Wasserman Schultz
+Mr. Donald Trump;Donald Trump
+Rand;Rand Paul
+Netanyahu;Benjamin Netanyahu
+Mitt;Mitt Romney
+Wolf Blitzer;Wolf Blitzer
+Dwight Eisenhower;Dwight Eisenhower
+Assad;Bashar al-Assad
+Mubarak;Hosni Mubarak
+Pope;Pope Francis
+Bill;Bill Clinton
+Kim Jong-un;Kim Jong Un
+John Boehner;John Boehner
+Senator Rubio;Marco Rubio
+Barack Obama;Barack Obama
+Mattis;Joseph Mattis
+Chris Wallace;Chris Wallace
+Barack;Barack Obama
+Mr. Rubio;Marco Rubio
+Calvin Coolidge;Calvin Coolidge
+Kennedy;John Kennedy
+Bush;Jeb Bush
+Obama;Barack Obama
+Kim Jong-Un;Kim Jong Un
+Mr.;TITLE
+Hugh Hewitt;Hugh Hewitt
+Senator Graham;Lindsey Graham
+Angel;TITLE
+Rodham Clinton;Hillary Clinton
+Nelson Mandela;Nelson Mandela
+Carson;Ben Carson
+James Comey;James Comey
+Govenor Christie;Chris Christie
+Hosni Mubarak;Hosni Mubarak
+Don Lemon;Don Lemon
+Woodrow Wilson;Woodrow Wilson
+Sir;TITLE
+Hillary Clinton;Hillary Clinton
+Mitch McConnell;Mitch McConnell
+Senator Sander;Bernie Sanders
+Mitt Romney;Mitt Romney
+Vermont Bernie Sanders;Bernie Sanders
+Lady;TITLE
+Nikki;Nikki Haley
+Michael Bloomberg;Michael Bloomberg
+Mayor Bloomberg;Michael Bloomberg
+Sheriff Joe Arpaio;Joe Arpaio
+Santorum;Rick Santorum
+Moammar Qadafi;Muammar Gaddafi
+Celeste Arrarás;Maria Celeste Arraras
+Nancy;Nancy Pelosi
+Barbara;Barbara Bush
+Marco Rubio;Marco Rubio
+Vladimir Putin;Vladimir Putin
+Governor Christie;Chris Christie
+Cruz;Ted Cruz
+Miss Housekeeping;Alicia Machado
+Sandra Bland;Sandra Bland
+Mr. Assad;Bashar al-Assad
+Tamir Rice;Tamir Rice
+Donald Trump Iraq;Donald Trump
+Clinton;Hillary Clinton
+Ronald Reagan;Ronald Reagan
+Senator Jeff Sessions;Jeff Sessions
+Merkel;Angela Merkel
+Nancy Pelosi;Nancy Pelosi
+Tip;Tip O'Neill
+Senator John McCain;John McCain
+Senator Sessions;Jeff Sessions
+Neil Cavuto;Neil Cavuto
+Speaker;TITLE
+Hitler;Adolf Hitler
+Eric Garner;Eric Garner
+Carly Fiorina;Carly Fiorina
+Putin;Vladimir Putin
+Honest Abe;Abraham Lincoln
+Chris Cuomo;Chris Cuomo
+John Kerry;John Kerry
+Senator Cruz;Ted Cruz
+Hussein;Saddam Hussein
+Frederick Douglas;Frederick Douglas
+Warren;Elizabeth Warren
+George Bush;George Bush
+Richard Nixon;Richard Nixon
+Maria Elena Salinas;Maria Elena Salinas
+Edward Snowden;Edward Snowden
+Paul Ryan;Paul Ryan
+Gaddafi;Muammar Gaddafi
+Jeff Sessions;Jeff Sessions
+Dana Bush;Dana Bash
+Dwight D. Eisenhower;Dwight Eisenhower
+Schumer;Chuck Schumer
+Castro;Fidel Castro
+Don;Don Lemon
+Merrick Gaarland;Merrick Garland
+Hilary Clinton;Hillary Clinton
+Rachel;Rachel Maddow
+John Adams;John Adams
+David Duke;David Duke
+Benjamin Franklin;Benjamin Franklin
+Senator Sanders;Bernie Sanders
+Mr. Carson;Ben Carson
+Gore;Al Gore
+Muammar Gaddafi;Muammar Gaddafi
+Texas Senator;Ted Cruz
+Senator Bernie Sanders;Bernie Sanders
+Rosie O'Donnell;Rosie O'Donnell
