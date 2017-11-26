@@ -1,3 +1,9 @@
+## November 26, 2017
+- Worked on simple analysis!
+
+### Tasks
+- What is the best way to include all data? My master csv doesn't store the trees correctly. I want to include a pickle file, but that might be too big?
+
 ## November 19, 2017
 - Pulled in missed titles to the trees
 - Worked on a function to pull in all missed RE's
