@@ -314,7 +314,6 @@ Sandra Bland;Sandra Bland
 Mr. Assad;Bashar al-Assad
 Jong-Un;Kim Jong-Un
 Tamir Rice;Tamir Rice
-Donald Trump Iraq;Donald Trump
 Clinton;Hillary Clinton
 Ronald Reagan;Ronald Reagan
 Senator Jeff Sessions;Jeff Sessions
