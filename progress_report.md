@@ -1,5 +1,6 @@
 ## November 26, 2017
-- Worked on simple analysis!
+- Worked on simple analysis! Created the speaker dataframes
+- When I was doing that, I realized there were some issues with my tagger. When I pulled in titles and names that were just completely missed by the tagger, they weren't being tagged correctly even when it worked with some test trees. The issue turned out to be that my mapping function that returned the original tree to the dataframe returned a list whose only element was the tree. That messed up some indexing things later on in later functions, so when I fixed that, my tagger worked a lot better!
 
 ### Tasks
 - What is the best way to include all data? My master csv doesn't store the trees correctly. I want to include a pickle file, but that might be too big?
