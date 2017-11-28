@@ -6,7 +6,6 @@ Tapper;Jake Tapper
 Jake;Jake Tapper
 Florida Senator;Marco Rubio
 Hill;Hillary Clinton
-Hey Ted;Ted Cruz
 Bibi Netanyahu;Benjamin Netanyahu
 Mr. Cruz;Ted Cruz
 Ted;Ted Cruz
@@ -51,6 +50,7 @@ Martin;Martin O'Malley
 Senator Webb;Jim Webb
 Lester;Lester Holt
 Holt;Lester Holt
+John;John Kasich
 Lester Holt;Lester Holt
 David;David Muir
 Muir;David Muir
@@ -127,7 +127,7 @@ Carly;Carly Fiorina
 Lyin;Ted Cruz
 Major Garrett;Major Garrett
 Sanders;Bernie Sanders
-Senator Sanders—30;Bernie Sanders
+Senator Sanders;Bernie Sanders
 Laden;Osama bin Laden
 Jorge;Jorge Ramos
 Bret Baier;Bret Baier
@@ -364,7 +364,7 @@ Rosie O'Donnell;Rosie O'Donnell
 James Comey;James Comey
 Jim Comey;James Comey
 Comey;James Comey
-Madame;TITLE
+Madam;TITLE
 Semator;TITLE
 Sheriff;TITLE
 Chairman;TITLE
