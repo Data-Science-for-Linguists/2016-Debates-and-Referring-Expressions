@@ -1,3 +1,7 @@
+## November 27 and 28, 2017
+- Just need to analyze a few more speakers, then I think I'm all done!
+- Analyzed general REs, Trump's,  Clinton's, Fiorina's, and added some visualization 
+
 ## November 26, 2017
 - Worked on simple analysis! Created the speaker dataframes
 - When I was doing that, I realized there were some issues with my tagger. When I pulled in titles and names that were just completely missed by the tagger, they weren't being tagged correctly even when it worked with some test trees. The issue turned out to be that my mapping function that returned the original tree to the dataframe returned a list whose only element was the tree. That messed up some indexing things later on in later functions, so when I fixed that, my tagger worked a lot better!
