@@ -236,6 +236,7 @@ Saddam Hussein;Saddam Hussein
 Chuck Schumer;Chuck Schumer
 Franklin Delano Roosevelt;Franklin D. Roosevelt
 Cuomo;Chris Cuomo
+President Clinton;Bill Clinton
 Carl Quintanilla;Carl Quintanilla
 Quintanilla;Carl Quintanilla
 Carl;Carl Quintanilla
