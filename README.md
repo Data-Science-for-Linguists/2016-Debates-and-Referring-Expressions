@@ -1,10 +1,10 @@
 ## 2016 Election Project
 
-Paige Haring
+**Paige Haring**
 
-University of Pittsburgh
+**University of Pittsburgh**
 
-peh40@pitt.edu
+*peh40@pitt.edu*
 
 The 2016 presidential election in the United States provides a unique opportunity to analyze gender-bias in politics because Hillary Clinton became the first woman presidential nominee of a major political party in the US. Studies have shown that this gender-bias has a real affect on voter patterns and the success of political politicians, and one of the ways this bias can be expressed is in the way we refer to female candidates (Fracchiolla, 2011). This project uses debate transcripts from the 25 debates of the 2016 presidential election to analyze the referring expressions used for and by the candidates.
 
