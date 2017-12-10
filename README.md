@@ -1,25 +1,40 @@
 ## 2016 Election Project
 
-This repository contains the data and project description of my linguistic analysis of the 2016 US Presidential election. Please see the project plan for more information!
-
-You can find my visitor's log [here](https://github.com/Data-Science-for-Linguists/Shared-Repo/blob/master/todo10_visitors_log/visitors_log_paige.md).
-
 Paige Haring
 
 University of Pittsburgh
 
 peh40@pitt.edu
 
+The 2016 presidential election in the United States provides a unique opportunity to analyze gender-bias in politics because Hillary Clinton became the first woman presidential nominee of a major political party in the US. Studies have shown that this gender-bias has a real affect on voter patterns and the success of political politicians, and one of the ways this bias can be expressed is in the way we refer to female candidates (Fracchiolla, 2011). This project uses debate transcripts from the 25 debates of the 2016 presidential election to analyze the referring expressions used for and by the candidates.
+
+You can find my visitor's log [here](https://github.com/Data-Science-for-Linguists/Shared-Repo/blob/master/todo10_visitors_log/visitors_log_paige.md).
+
+### Directory
+- [Project Plan](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/project_plan.md)
+- [Progress Report](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/progress_report.md)
+- [Data](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data)
+  - [Debate Transcripts and CSVs](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data/Debates)
+  - [Lists](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data/Lists)
+- [License](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/LICENSE.md)
+- [License Notes](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/LICENSE_notes.md)
+- [Data Processing](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/data_processing.ipynb)
+- [NER Annotation](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/NER_annotating.ipynb)
+- [Analysis](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.ipynb)
+- [Presentation Slides](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/2016_Election_Project_Presentation.pdf)
 ### Dataset
 The data for this project is included in the data/Debates folder. The transcripts of the files are all saved as text files in the data/Debates/transcripts folder. These transcripts are from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php) with citations below.
 
-In the data/Debates/csv folder, I have included a comma separated value file for each debate transcript where the values are the date of the debate, the type of debate (general, Democratic primary, or Republican primary), the speaker, the utterance, and NER annotation of the utterance in the form of a tree in the last value. It also includes debate1_sents_re.csv, debate2_sents_re.csv, debate3_sents_re.csv which have a column labeled RE. The values in this column are manually annotated referring expressions. The transcripts represented by these csvs are the first, second and third general election debates.
+In the data/Debates/csv folder, I have included a comma separated value file for each debate transcript where the values are the date of the debate, the type of debate (general, Democratic primary, or Republican primary), the speaker, the utterance, and NER annotation of the utterance in the form of a tree in the last value. In the data/Lists/ folder, there are text files containing the manually pruned list of all of the entities fount in the transcripts. The file relevant_people.txt is this trimmed list. The file linked.txt is a text file used to link all of the different ways a person is referred to, to that person, in order to create a dictionary later on.
 
 ### NER Trees
 The NER trees in each csv are set up as follows: The label of the tree represents the speaker of the utterance. The label for each of the tagged named entities within the tree is used to link the annotation to the person it is referring to.
 
 ### Citations
 My uses for this data fall under the terms of fair use, as I am transforming them from their original transcript form and adding linguistic annotation and analysis for scholarship purposes. The transcripts of these debates can be found from other sources as well.
+
+Fracchiolla, B. (2011). Politeness as a strategy of attack in a gendered political debate – The
+Royal-Sarkozy debate. Journal of Pragmatics, 43, 2480-2488
 
 Presidential Candidates Debates: "Presidential Debate at the University of Nevada in Las Vegas," October 19, 2016. Online by Gerhard Peters and John T. Woolley, The American Presidency Project. http://www.presidency.ucsb.edu/ws/?pid=119039.
 
