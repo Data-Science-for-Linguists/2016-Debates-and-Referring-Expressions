@@ -5,7 +5,11 @@
 This notebook is intended to document my data processing throughout this project. I'll be poking around and modifying my data in this file. The data I am starting out with are transcripts of the presidential debates from the 2016 US Election. I am processing the Democratic and Republican primary debates, and the debates of the general election between Hillary Clinton and Donald Trump. The transcripts were taken from UCSB's American Presidency Project, and the citation for each of the transcripts can be found in the README.
 
 ### Table of Contents
+- [Reading in Transcript Files](#reading-in-files)
 - [Splitting Transcripts by Speaker](#splitting-transcripts-by-speaker)
+- [Tokenizing Each Speaker's Sentences](#tokenizing-each-speakers-sentences)
+- [Reordering and Naming Columns](#reordering-and-naming-columns)
+- [Saving DataFrames](#saving-dataframes)
 
 
 ```python
@@ -21,9 +25,10 @@ import re
     Pretty printing has been turned OFF
 
 
+#### Reading In Files
+
 
 ```python
-#Reading in files
 os.chdir('/Users/Paige/Documents/Data_Science/2016-Election-Project/data/Debates/transcripts/')
 files = glob.glob("*.txt")
 files
@@ -171,6 +176,8 @@ debates[0][:4]
     [['PARTICIPANTS', '\nFormer Governor Jeb Bush (FL);\nBen Carson;\nGovernor Chris Christie (NJ);\nSenator Ted Cruz (TX);\nGovernor John Kasich (OH);\nSenator Marco Rubio (FL);\nDonald Trump;'], ['MODERATORS', '\nMaria Bartiromo (Fox Business Network); and\nNeil Cavuto (Fox Business Network)\n'], ['CAVUTO', " It is 9:00 p.m. here at the North Charleston Coliseum and Performing Arts Center in South Carolina. Welcome to the sixth Republican presidential of the 2016 campaign, here on the Fox Business Network. I'm Neil Cavuto, alongside my friend and co-moderator Maria Bartiromo.\n"], ['BARTIROMO', ' Tonight we are working with Facebook to ask the candidates the questions voters want answered. And according to Facebook, the U.S. election has dominated the global conversation, with 131 million people talking about the 2016 race. That makes it the number one issue talked about on Facebook last year worldwide.\n']]
 
 
+
+#### Tokenizing Each Speaker's Sentences
 
 
 ```python
@@ -1944,6 +1951,8 @@ for df in dataframes:
 
 
 
+#### Reordering and Naming Columns
+
 
 ```python
 #Creating a new giant list of cleaned dataframes where the columns are reordered and cleaned up
@@ -2110,6 +2119,8 @@ dataframes_clean[-1].head()
 
 
 **Now I have a nice data frame for each debate. For any utterance in any debate, I provide information about who said it, what kind of debate it was, and when the debate took place. Now I'm going to export these dataframes to CSV files and process them with NER annotation in a different notebook.**
+
+#### Saving DataFrames
 
 
 ```python
