@@ -8,7 +8,7 @@ This notebook is intended to document my data processing throughout this project
 - [Reading in Transcript Files](#reading-in-files)
 - [Splitting Transcripts by Speaker](#splitting-transcripts-by-speaker)
 - [Tokenizing Each Speaker's Sentences](#tokenizing-each-speakers-sentences)
-- [Mapping to Debate Type](#mapping-to-debate-type)
+- [Mapping to Debate Type](#)
 - [Reordering and Naming Columns](#reordering-and-naming-columns)
 - [Saving DataFrames](#saving-dataframes)
 
@@ -26,7 +26,7 @@ import re
     Pretty printing has been turned OFF
 
 
-#### Reading In Files
+### Reading In Files
 
 
 ```python
@@ -126,7 +126,7 @@ print(transcripts[1][:200])
 
 **Cleaning up: I would eventually like to end up with a dataframe where the columns are Date, Type (primary or general), Speaker, Sents, where the Sents are in the order that they are said.**
 
-#### Splitting Transcripts by Speaker
+### Splitting Transcripts by Speaker
 
 
 ```python
@@ -178,7 +178,7 @@ debates[0][:4]
 
 
 
-#### Tokenizing Each Speaker's Sentences
+### Tokenizing Each Speaker's Sentences
 
 
 ```python
@@ -193,7 +193,7 @@ for debate in debates:
     debate_sents.append(sents_toks)
 ```
 
-#### Mapping to Debate Type
+### Mapping to Debate Type
 
 
 ```python
@@ -1954,7 +1954,7 @@ for df in dataframes:
 
 
 
-#### Reordering and Naming Columns
+### Reordering and Naming Columns
 
 
 ```python
@@ -2123,7 +2123,7 @@ dataframes_clean[-1].head()
 
 **Now I have a nice data frame for each debate. For any utterance in any debate, I provide information about who said it, what kind of debate it was, and when the debate took place. Now I'm going to export these dataframes to CSV files and process them with NER annotation in a different notebook.**
 
-#### Saving DataFrames
+### Saving DataFrames
 
 
 ```python
