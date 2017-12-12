@@ -7,7 +7,7 @@
     Pretty printing has been turned OFF
 
 
-## 2016 Election Project 
+## 2016 Election Project
 ### Part 2 of Processing Pipeline
 
 This notebook is intended to document NER annotation of my data throughout this project. The data I am starting out with are transcripts of the presidential debates from the 2016 US Election- the 10 Democratic primary debates, the 12 Republican primary debates, and the debates for the general election between Hillary Clinton and Donald Trump. The transcripts were taken from UCSB's American Presidency Project. The citations for these transcripts can be found in the README.
@@ -80,19 +80,6 @@ master_df.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -154,19 +141,6 @@ master_df.tail()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -235,19 +209,6 @@ master_df.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -318,7 +279,7 @@ master_df.iloc[2][-1]
 
 
 
-![png](output_17_0.png)
+![png](images/output_17_0.png)
 
 
 
@@ -337,7 +298,7 @@ master_df.iloc[2]['Tree']
 
 
 
-![png](output_19_0.png)
+![png](images/output_19_0.png)
 
 
 
@@ -362,7 +323,7 @@ master_df.iloc[8]['Tree']
 
 
 
-![png](output_21_0.png)
+![png](images/output_21_0.png)
 
 
 
@@ -387,7 +348,7 @@ master_df.iloc[1603]['Tree']
 
 
 
-![png](output_23_0.png)
+![png](images/output_23_0.png)
 
 
 
@@ -415,7 +376,7 @@ for tree in master_df['Tree']:
     for chunk in tree:
         if hasattr(chunk, 'label'):
             ner_categories[chunk.label()] += 1
-            
+
 # Create a list from the dictionary keys for the chart labels: labels
 labels = list(ner_categories.keys())
 
@@ -430,7 +391,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](images/output_25_0.png)
 
 
 
@@ -451,7 +412,7 @@ people[1]
 
 
 
-![png](output_27_0.png)
+![png](images/output_27_0.png)
 
 
 
@@ -902,19 +863,6 @@ master_df.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -981,7 +929,7 @@ master_df.iloc[8][-1]
 
 
 
-![png](output_74_0.png)
+![png](images/output_74_0.png)
 
 
 
@@ -993,7 +941,7 @@ master_df.iloc[9][-1]
 
 
 
-![png](output_75_0.png)
+![png](images/output_75_0.png)
 
 
 
@@ -1005,7 +953,7 @@ master_df.iloc[1509][-1]
 
 
 
-![png](output_76_0.png)
+![png](images/output_76_0.png)
 
 
 
@@ -1017,7 +965,7 @@ master_df.iloc[1603][-1]
 
 
 
-![png](output_77_0.png)
+![png](images/output_77_0.png)
 
 
 
@@ -1082,7 +1030,7 @@ master_df.iloc[1509][-1]
 
 
 
-![png](output_83_0.png)
+![png](images/output_83_0.png)
 
 
 
@@ -1094,7 +1042,7 @@ master_df.iloc[1603][-1]
 
 
 
-![png](output_84_0.png)
+![png](images/output_84_0.png)
 
 
 
@@ -1106,7 +1054,7 @@ master_df.iloc[8][-1]
 
 
 
-![png](output_85_0.png)
+![png](images/output_85_0.png)
 
 
 
@@ -1122,7 +1070,7 @@ master_df.iloc[30537][-1]
 
 
 
-![png](output_88_0.png)
+![png](images/output_88_0.png)
 
 
 
@@ -1144,7 +1092,7 @@ master_df.iloc[30537][-1]
 
 
 
-![png](output_90_0.png)
+![png](images/output_90_0.png)
 
 
 
@@ -1184,7 +1132,7 @@ master_df.iloc[30537][-1]
 
 
 
-![png](output_95_0.png)
+![png](images/output_95_0.png)
 
 
 
