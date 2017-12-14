@@ -1,6 +1,9 @@
+## December 13, 2017
+- Finished analysis and final project report
+
 ## November 27 and 28, 2017
 - Just need to analyze a few more speakers, then I think I'm all done!
-- Analyzed general REs, Trump's,  Clinton's, Fiorina's, and added some visualization 
+- Analyzed general REs, Trump's,  Clinton's, Fiorina's, and added some visualization
 
 ## November 26, 2017
 - Worked on simple analysis! Created the speaker dataframes
