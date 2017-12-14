@@ -3,6 +3,7 @@
 
 ##### Paige Haring
 ##### peh40@pitt.edu
+##### December 13, 2017
 ##### University of Pittsburgh
 
 The 2016 presidential election in the United States provides a unique opportunity to analyze gender-bias in politics because Hillary Clinton became the first woman presidential nominee of a major political party in the US. Studies have shown that this gender-bias has a real affect on voter patterns and the political success of female politicians, and one of the ways this bias can be expressed is in the way we refer to female candidates (Fracchiolla, 2011). This project uses debate transcripts from the 25 debates of the 2016 presidential election to analyze the referring expressions used for and by the candidates.
@@ -21,8 +22,11 @@ You can find my visitor's log [here](https://github.com/Data-Science-for-Linguis
 - [NER Annotation](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/NER_annotating.ipynb)
 - [Analysis](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.ipynb)
 - [Presentation Slides](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/2016_Election_Project_Presentation.pdf)
+- [Final Report](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/final_report.md)
+
+
 ### Dataset
-The data for this project is included in the data/Debates folder. The transcripts of the files are all saved as text files in the data/Debates/transcripts folder. These transcripts are from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php) with citations below.
+The data for this project is included in the data/Debates/transcripts folder. In this folder, there are 25 text files. These files are transcripts of the 25 debates from the 2016 Presidential Election from [The American Presidency Project at UC Santa Barbara](http://www.presidency.ucsb.edu/debates.php). Find citations below.
 
 In the data/Debates/csv folder, I have included a comma separated value file for each debate transcript where the values are the date of the debate, the type of debate (general, Democratic primary, or Republican primary), the speaker, the utterance, and NER annotation of the utterance in the form of a tree in the last value. In the data/Lists/ folder, there are text files containing the manually pruned list of all of the entities fount in the transcripts. The file relevant_people.txt is this trimmed list. The file linked.txt is a text file used to link all of the different ways a person is referred to, to that person, in order to create a dictionary later on.
 
