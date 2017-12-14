@@ -8,7 +8,7 @@ This notebook is intended to document my data processing throughout this project
 - [Reading in Transcript Files](#reading-in-files)
 - [Splitting Transcripts by Speaker](#splitting-transcripts-by-speaker)
 - [Tokenizing Each Speaker's Sentences](#tokenizing-each-speakers-sentences)
-- [Mapping to Debate Type](#)
+- [Mapping to Debate Type](#mapping-to-debate-type)
 - [Reordering and Naming Columns](#reordering-and-naming-columns)
 - [Saving DataFrames](#saving-dataframes)
 
