@@ -14,7 +14,7 @@ Hillary Clinton became the first woman presidential nominee of a major political
 
 ## 2. Data Sourcing
 
-The data for this project came from the [University of Santa Barbara's American Presidency Project](http://www.presidency.ucsb.edu/debates.php). I used the 12 transcripts from the republican debates, the 10 transcripts from the democratic debates, and the 3 transcripts from the general debates between Donald Trump and Hillary Clinton as my data. I was able to use this data under the terms of fair use, as I used it for scholarship purposes and modified it significantly. The data can be found [here]((https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data).
+The data for this project came from the [University of Santa Barbara's American Presidency Project](http://www.presidency.ucsb.edu/debates.php). I used the 12 transcripts from the republican debates, the 10 transcripts from the democratic debates, and the 3 transcripts from the general debates between Donald Trump and Hillary Clinton as my data. I was able to use this data under the terms of fair use, as I used it for scholarship purposes and modified it significantly. The data can be found [here](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data).
 
 ## 3. Data Cleaning
 
@@ -56,62 +56,22 @@ There were many other issues with the chunker that I couldn't fix. For example, 
 
 ## 4. Analysis
 
-I analyzed the way Hillary Clinton, Donald Trump, 
+I analyzed the way eight candidates referred to each other. I conducted analysis for [Hillary Clinton](analysis.md#hillary-clinton-as-speaker), [Donald Trump](analysis.md#donald-trump-as-speaker), [Bernie Sanders](analysis.md#bernie-sanders-as-speaker), [Ted Cruz](analysis.md#ted-cruz-as-speaker), [Marco Rubio](analysis.md#marco-rubio-as-speaker), [Carly Fiorina]((analysis.md#carly-fiorina-as-speaker)), and [Ben Carson](analysis.md#ben-carson-as-speaker) as speakers referring to each of the other candidates. I also looked to see how each of these candidates were referred to by any speaker throughout the transcript data. Please see my [analysis script](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.md) for a more detailed analysis of each individual speaker.
 
+I created six categories of referring expressions: first names, last names, full names, professional title, gendered title, or name-calling. This was the distribution.
 
+![png](images/output_92_0.png)
 
-## 5. Conclusion
+Originally, I created the "gendered title" category because I believed it would be helpful in looking at gender-bias. Examples of "gendered titles" are Mrs., Miss, Mr., Madam, etc. It was easy for me to distinguish when Hillary Clinton was referred to by a gendered title, because she has multiple professional titles that she could be referred to like Secretary Clinton. The problem I had was how deciding how to handle "Mrs. Fiorina" when referring to Carly Fiorina, simply because that not only is that a gendered title, but it was also the only professional title that could be used for her because she never held a political office. The same was true for Donald Trump and "Mr.". I decided that in the absence of a political title, Mr. or Mrs. would not be considered gendered.
 
+I also looked at how [Dana Bash and David Muir](analysis.md#moderators) referred to these eight candidates to see if there were differences in how a moderator and a competitor might refer to the same person.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Finally, I looked to see [changes](analysis.md#differences-across-debates) in the way Hillary Clinton and Donald Trump referred to each other across the three general debates.
 
 We have found some interesting results. I don't believe with the data we have we can make any definite conclusions about gender bias evident in these transcripts, but there are some things that we can observe easily. It is no surprise that the moderators we looked at never refer to the candidates by their first name, and almost always refer to them by their professional titles. Interestingly, Dana Bash, a female moderator, used the expression Madam Secretary more often than David Muir did when describing Clinton. When using a professional title for Clinton, Muir did not add gender to the term.
 
 We also found that out of all of the times Clinton is referred to, she is called by a professional title a smaller percentage of the time than the percentage of the each of the male candidates we looked at. Clinton refers to other candidates by their professional title most often, but refers to Donald Trump by his first name most often. This could have been strategic. Clinton could have been trying to take away some of the power Trump might have had by not referring to him with a title. Trump, who in the first debate called Clinton by a professional title most often, completely stopped doing that by the second in an attempt to match the way Clinton referred to him. It was interesting that Trump called Clinton by a title in the first debate, because in all of the primary debates preceding it, Trump referred to the other candidates involved by their first names most often. His use of a title for her was most likely a strategy to try and get respect from her by being more polite, or to make sure he did not look bad by not using a title. When Clinton made it clear she would only call him by his first name, Trump changed his strategy, because it doesn't help him to refer to her in a way that emphasizes her experience in politics in a respectful way while she refers to him in a less formal way. It makes him seem less powerful.
 
 We should also consider what it could mean to call someone by their full name. In a debate where someone is called by their full name, and they are not participating, the speaker must be talking about that person because on the one hand, they are not there to address, and on the other hand, using a full name is a specific form of address, so everyone knows exactly who you are talking about. So what does it mean to be talked about a lot versus not at all? Talking about someone is obviously indicative of how relevant that person is in the campaign, and could be indicative of how much of a threat that person is considered to be. If a candidate talks about another candidate a lot, it could mean that they are relatively confident they will be directly compared to them in the future, meaning the speaker is confident both they and the person they are talking about will continue on into later rounds of the debates. This of course is not the only explanation of these phenomena, but certainly a possible explanation. To use a candidate's full name in a debate where you are both participating could be interpreted as confrontational. The speaker could also be talking about the candidate as if they were not there to address more personally. Please see my final report document in this repo to read more.
+
+## 5. Conclusion
