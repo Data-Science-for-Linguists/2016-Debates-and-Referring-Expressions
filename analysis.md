@@ -1,4 +1,3 @@
-[png](images/images/
 
 ```python
 %pprint
