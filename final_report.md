@@ -6,15 +6,15 @@
 
 ## 0. Background
 
-In the 2007 French Presidential Election, Ségolène Royal made history as the first female candidate to make it to the second round of a presidential election, and therefore the first female candidate to make it to the debate stage (Fracchiolla, 2011). Béatrice Fracchiola seized this opportunity to observe whether a female presence changed the dynamics of the debate by studying the way Royal and her competitor, Nicolas Sarkozy, addressed each other and looking for evidence of gender-bias. Gender stereotypes, like the idea that females are passive and less competent than males, have a significant impact on voting patterns and women's success in politics. Therefore, being able to distinguish the ways these stereotypes are reinforced through speech can help female candidates overcome them (Fracchiolla, 2011). Fracchiolla noticed that Sarkozy used politeness as a "courteous attack" and referred to Royal with gendered terms like Madame very often in order to remind the audience of Royal's gender and appeal to these gender stereotypes.
+In the 2007 French Presidential Election, Ségolène Royal made history as the first female candidate to make it to the second round of a presidential election, and therefore the first female candidate to make it to the debate stage (Fracchiolla, 2011). Béatrice Fracchiolla seized this opportunity to observe whether a female presence changed the dynamics of the debate by studying the way Royal and her competitor, Nicolas Sarkozy, addressed each other and looking for evidence of gender-bias. Gender stereotypes, like the idea that females are passive and less competent than males, have a significant impact on voting patterns and women's success in politics. Therefore, being able to distinguish the ways these stereotypes are reinforced through speech can help female candidates overcome them (Fracchiolla, 2011). Fracchiolla noticed that Sarkozy used politeness as a "courteous attack" and referred to Royal with gendered terms like Madame very often in order to remind the audience of Royal's gender and appeal to these gender stereotypes.
 
 ## 1. Introduction
 
-Hillary Clinton became the first woman presidential nominee of a major political party in the United States during the 2016 Presidential Election. Her opponent in the general election, Donald Trump, was a business man with no political experience. I thought this election provided another opportunity to look for evidence of gender bias on the debate stage. Like Fracchiolla, I wanted to analyze the way the candidates referred to each other. While Fracchiolla focused largely on gendered terms of address and pronoun usage, I focused on the use of professional titles versus the use of candidates first or full names. I sought out to see if there were differences in the ways female and male candidates were addressed, and to see if there were differences in the ways candidates with and without political experience were referred to. If so, what could these differences mean?
+Hillary Clinton became the first woman presidential nominee of a major political party in the United States during the 2016 Presidential Election. Her opponent in the general election, Donald Trump, was a business man with no political experience. I thought this election provided another opportunity to look for evidence of gender-bias on the debate stage. Like Fracchiolla, I wanted to analyze the way the candidates referred to each other. While Fracchiolla focused largely on gendered terms of address and pronoun usage, I focused on the use of professional titles versus the use of candidates' first or full names. I wanted to see if there were differences in the ways female and male candidates were addressed, and to see if there were differences in the ways candidates with and without political experience were referred to. If so, what could these differences mean?
 
 ## 2. Data Sourcing
 
-The data for this project came from the [University of Santa Barbara's American Presidency Project](http://www.presidency.ucsb.edu/debates.php). I used the 12 transcripts from the republican debates, the 10 transcripts from the democratic debates, and the 3 transcripts from the general debates between Donald Trump and Hillary Clinton as my data. I was able to use this data under the terms of fair use, as I used it for scholarship purposes and modified it significantly. The data can be found [here](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data).
+The data for this project came from the [University of Santa Barbara's American Presidency Project](http://www.presidency.ucsb.edu/debates.php). I used the 12 transcripts from the republican debates, the 10 transcripts from the democratic debates, and the 3 transcripts from the general debates between Donald Trump and Hillary Clinton as my data. I was able to use this data under the terms of fair use, as I used it for scholarship purposes and modified it significantly. The data can be found [here](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data/Debates/transcripts).
 
 ## 3. Data Cleaning
 
@@ -22,11 +22,11 @@ There were several important steps involved in making this data usable for the t
 
 ![png](images/output_17_0.png)
 
-I wanted the speaker of the utterance to be evident by looking at the tree, so I [mapped the speaker column of the DateFrames](ner_annotating.md#mapping-speaker-to-tree) I created to the head label of each tree. After that, they looked like this:
+I wanted the speaker of the utterance to be evident by looking at the tree, so I [mapped the speaker column of the DateFrames](NER_annotating.md#mapping-speaker-to-tree) I created to the head label of each tree. After that, they looked like this:
 
 ![png](images/output_19_0.png)
 
-The next step was to link the entities that were tagged in these trees to who they were referring to. I did this by manually creating a large list of relevant people, and [creating a dictionary](ner_annotating.md#creating-dictionary-for-ner-linking) that mapped each way of referring to a person to that person.
+The next step was to link the entities that were tagged in these trees to who they were referring to. I did this by manually creating a large list of relevant people, and [creating a dictionary](NER_annotating.md#creating-dictionary-for-ner-linking) that mapped each way of referring to a person to that person.
 
 ### Setbacks
 
@@ -34,11 +34,11 @@ The first issue I ran into using NLTK's chunker was that I specifically wanted t
 
 ![png](images/output_23_0.png)
 
-I had to write [a function](ner_annotating.md#pulling-in-titles) that would pull in the preceding titles.
+I had to write [a function](NER_annotating.md#pulling-in-titles) that would pull in the preceding titles.
 
 ![png](images/output_84_0.png)
 
-The second issue was that the chunker simply did not tag a lot of entities that should have been tagged. I created a function that would tag these missed entities first by searching for [relevant last names](ner_annotating.md#tagging-missed-entities-last-names). Then again later by looking for [titles and first names]((#tagging-missed-entities-titles-and-first-names).
+The second issue was that the chunker simply did not tag a lot of entities that should have been tagged. I created a function that would tag these missed entities first by searching for [relevant last names](NER_annotating.md#tagging-missed-entities-last-names). Then again later by looking for [titles and first names](NER_annotating.md#tagging-missed-entities-titles-and-first-names).
 
 That changed my trees from this:
 
@@ -84,4 +84,4 @@ We should also consider what it could mean to call someone by their full name. I
 
 ## 5. Conclusion
 
-I would like to continue researching this subject and look into pronoun usage like Fracchiolla did. I would also like to add more information to my trees to somehow include who is being spoken *to*. I also need to do more research regarding what different forms of address typically mean, and I would like to look more into name-calling across the entire election. Overall, I think I have created a good starting tool for other researchers to be able to analyze referring expressions in political-debate discourse. 
+I would like to continue researching this subject and look into pronoun usage like Fracchiolla did. I would also like to add more information to my trees to somehow include who is being spoken *to*. I also need to do more research regarding what different forms of address typically mean, and I would like to look more into name-calling across the entire election. Overall, I think I have created a good starting tool for other researchers to be able to analyze referring expressions in political-debate discourse.
