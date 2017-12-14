@@ -5663,7 +5663,7 @@ plt.show()
 ```
 
 
-![png](output_361_0.png)
+![png](images/output_361_0.png)
 
 
 ### Some Conclusions
