@@ -18,9 +18,9 @@ You can find my visitor's log [here](https://github.com/Data-Science-for-Linguis
   - [Lists](https://github.com/Data-Science-for-Linguists/2016-Election-Project/tree/master/data/Lists)
 - [License](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/LICENSE.md)
 - [License Notes](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/LICENSE_notes.md)
-- [Data Processing](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/data_processing.ipynb)
-- [NER Annotation](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/NER_annotating.ipynb)
-- [Analysis](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.ipynb)
+- [Data Processing as Jupyter Notebook](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/data_processing.ipynb) or as [markdown file](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/data_processing.md)
+- [NER Annotation as Jupyter Notebook](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/NER_annotating.ipynb) or as [markdown file](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/NER_annotating.md)
+- [Analysis as Jupyter Notebooke](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.ipynb) or as [markdown file](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.md)
 - [Presentation Slides](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/2016_Election_Project_Presentation.pdf)
 - [Final Report](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/final_report.md)
 
