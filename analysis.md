@@ -24,13 +24,13 @@ There is a similar situation among the male candidates. Donald Trump is the only
 - [Defining Helpful Functions](#important-functions)
 - [Categorizing the Referring Expressions Used for Each Candidate](#creating-referring-expression-categories)
 - [Overall Distribution of Types of Referring Expressions Used for Candidates](#overall-distribution-of-referring-expressions)
-- [How Donald Trump Refers to Other Candidates](#donald-trump)
-- [How Hillary Clinton Refers to Other Candidates](#hillary-clinton)
-- [How Carly Fiorina Refers to Other Candidates](#carly-fiorina)
-- [How Ted Cruz Refers to Other Candidates](#ted-cruz)
-- [How Marco Rubio Refers to Other Candidates](#marco-rubio)
-- [How Ben Carson Refers to Other Candidates](#ben-carson)
-- [How Bernie Sanders Refers to Other Candidates](#bernie-sanders)
+- [How Donald Trump Refers to Other Candidates](#donald-trump-as-speaker)
+- [How Hillary Clinton Refers to Other Candidates](#hillary-clinton-as-speaker)
+- [How Carly Fiorina Refers to Other Candidates](#carly-fiorina-as-speaker)
+- [How Ted Cruz Refers to Other Candidates](#ted-cruz-as-speaker)
+- [How Marco Rubio Refers to Other Candidates](#marco-rubio-as-speaker)
+- [How Ben Carson Refers to Other Candidates](#ben-carson-as-speaker)
+- [How Bernie Sanders Refers to Other Candidates](#bernie-sanders-as-speaker)
 - [How Moderators Refer to the Candidates](#moderators)
     - [Dana Bash](#dana-bash)
     - [David Muir](#david-muir)
@@ -1849,7 +1849,7 @@ plt.show()
 
 **Let's look at some individual speakers now.**
 
-### Donald Trump
+### Donald Trump as Speaker
 
 
 ```python
@@ -2324,7 +2324,7 @@ plt.show()
 
 **Let's check out how Hillary Clinton refers to these candidates.**
 
-### Hillary Clinton
+### Hillary Clinton as Speaker
 
 
 ```python
@@ -3064,7 +3064,7 @@ plt.show()
 ### Some Conclusions
 **It's a little harder to compare this graph to Trump's since Clinton didn't refer to all of the same candidates Trump did, but we can see that she refers to O'Malley and Sanders by a professional title the majority of the time, yet she almost never calls Trump by a professional title, and mostly refers to him by his first name.**
 
-### Carly Fiorina
+### Carly Fiorina as Speaker
 
 ##### Donald Trump
 
@@ -3311,7 +3311,7 @@ plt.show()
 ### Some Conclusions
 **While Fiorina referred to Rubio and Cruz as Senator, she never referred to Clinton as Secretary, always Mrs., her full name, or her last name. This could be a way of making Hillary Clinton and herself appear more similar by taking the political references out of the way Hillary Clinton is addressed. Using Mrs. also draws attention to Clinton's husband, former President Bill Clinton. It's possible that drawing attention to their relationship using this form of address can cause audience members to associate characteristics or decisions made by President Bill Clinton with Hillary Clinton. Fiorina always referred to Trump as Mr. Trump, which is interesting because he only ever referred to her by her first name. Perhaps by showing respect by using this title when referring to Trump, Fiorina is attempting to get respect back from him. Fiorina never referred to Ben Carson. Fiorina referred to Clinton 24 times, which is interesting because Clinton did not refer to Fiorina at all. It is also important to notice that Fiorina only referred to Marco Rubio two times, and Ted Cruz one time, so seeing in the graph that she referred to them by professional titles 100% of the time doesn't mean very much.**
 
-### Ted Cruz
+### Ted Cruz as Speaker
 
 ##### Donald Trump
 
@@ -3698,7 +3698,7 @@ plt.show()
 ### Some Conclusions
 **Ted Cruz also preferred to use the other candidates first names while addressing them, except for Hillary Clinton, Bernie Sanders, and Carly Fiorina, where he preferred their full names. This is most likely because he never spoke to those three, only about them. He refers to Marco Rubio and Donald Trump by professional titles, but no one else.**
 
-### Marco Rubio
+### Marco Rubio as Speaker
 
 ##### Donald Trump
 
@@ -3994,7 +3994,7 @@ plt.show()
 ### Some Conclusions
 **Marco Rubio was also a fan of using first names except in the case of Bernie Sanders, Hillary Clinton, and Ben Carson. Like Cruz, this is perhaps because Rubio only ever spoke about Sanders and Clinton and not to them. Rubio never referred to Carly Fiorina. Rubio also never used professional titles for the Democratic candidates, but did for the three Republican candidates. It is interesting that the three male, Republican candidates we have looked at so far mostly use first names. This is most likely a power move. If another candidate is trying to strip you of a title that provides insight into your experience and professionalism, you have to match them and refer to them the same way to avoid looking like they are more competent than you are.**
 
-### Ben Carson
+### Ben Carson as Speaker
 
 ##### Donald Trump
 
@@ -4284,7 +4284,7 @@ plt.show()
 
 **Ben Carson follows a similar pattern as the other male, Republican candidates. The data for Carson isn't too telling, becuase he only referred to Trump and Cruz twice, and Rubio once. He didn't refer to Carly Fiorina at all. In fact, he referred to Clinton and Sanders more than any of those Republican candidates. It seems he spent more time talking about Clinton and Sanders and their respective policies or ideas than addressing the candidates in the debate with him. We might interpret this as confidence; Carson is more focused on the Democratic candidates (the general election) than the Republican candidates (the primary election he has to win first). It could also be that the moderators just asked him many questions about the Democrats. With this little information, it is hard to draw many conclusions.**
 
-### Bernie Sanders
+### Bernie Sanders as Speaker
 
 ##### Donald Trump
 
