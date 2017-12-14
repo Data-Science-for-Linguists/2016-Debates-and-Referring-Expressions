@@ -30,7 +30,7 @@ The next step was to link the entities that were tagged in these trees to who th
 
 ### Setbacks
 
-The first issue I ran into using NLTK's chunker was that I specifically wanted to look at titles, and the chunker is designed to not tag titles. Sometimes it does not do this well, and titles are included as part of the entity, but most of the time they were excluded. Here is an example:
+The first issue I ran into using NLTK's chunker was that I specifically wanted to look at titles, and the chunker is designed to exclude titles. Sometimes it does not do this well, and titles are included as part of the entity, but most of the time they were excluded. Here is an example:
 
 ![png](images/output_23_0.png)
 
@@ -52,29 +52,35 @@ then this:
 
 ![png](images/output_95_0.png)
 
-There were many other issues with the chunker that I couldn't fix. For example, in the first tree above, the word "Please" was tagged as a person. I didn't not untag any of the mistakenly tagged "entities". Also, since I created the linking dictionary manually and people were occasionally referred to by their first name, I made the decision to make sure I mapped each candidate's first name to them. This lead to some difficulties in distinguishing between people with the same first name. For example, since Chris Christie was a candidate, I mapped Chris to Chris Christie. This caused problems because Chris Wallace was a moderator. That caused each time Chris Wallace was referred to as Chris to be mistakenly tagged as Chris Christie. In the future, I might try a different NER tool.
+There were many other issues with the chunker that I couldn't fix. For example, in the first tree above, the word "Please" was tagged as a person. I did not untag any of the mistakenly tagged "entities" because it was too time consuming. Also, since I created the linking dictionary manually and people were occasionally referred to by their first name, I made the decision to make sure I mapped each candidate's first name to them. This lead to some difficulties in distinguishing between people with the same first name. For example, since Chris Christie was a candidate, I mapped Chris to Chris Christie. This caused problems because Chris Wallace was a moderator. That caused each time Chris Wallace was referred to as Chris to be mistakenly tagged as Chris Christie. In the future, I might try a different NER tool.
 
 ## 4. Analysis
 
-I analyzed the way eight candidates referred to each other. I conducted analysis for [Hillary Clinton](analysis.md#hillary-clinton-as-speaker), [Donald Trump](analysis.md#donald-trump-as-speaker), [Bernie Sanders](analysis.md#bernie-sanders-as-speaker), [Ted Cruz](analysis.md#ted-cruz-as-speaker), [Marco Rubio](analysis.md#marco-rubio-as-speaker), [Carly Fiorina]((analysis.md#carly-fiorina-as-speaker)), and [Ben Carson](analysis.md#ben-carson-as-speaker) as speakers referring to each of the other candidates. I also looked to see how each of these candidates were referred to by any speaker throughout the transcript data. Please see my [analysis script](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.md) for a more detailed analysis of each individual speaker.
+I analyzed the way eight candidates referred to each other. I conducted analysis for [Hillary Clinton](analysis.md#hillary-clinton-as-speaker), [Donald Trump](analysis.md#donald-trump-as-speaker), [Bernie Sanders](analysis.md#bernie-sanders-as-speaker), [Ted Cruz](analysis.md#ted-cruz-as-speaker), [Marco Rubio](analysis.md#marco-rubio-as-speaker), [Carly Fiorina](analysis.md#carly-fiorina-as-speaker), and [Ben Carson](analysis.md#ben-carson-as-speaker) as speakers referring to each of the other candidates. I also looked to see how each of these candidates were referred to by any speaker throughout the transcript data. Please see my [analysis script](https://github.com/Data-Science-for-Linguists/2016-Election-Project/blob/master/analysis.md) for a more detailed analysis of each individual speaker.
 
-I created six categories of referring expressions: first names, last names, full names, professional title, gendered title, or name-calling. This was the distribution.
+I created six categories of referring expressions: first names, last names, full names, professional title, gendered title, or name-calling.
 
-![png](images/output_92_0.png)
-
-Originally, I created the "gendered title" category because I believed it would be helpful in looking at gender-bias. Examples of "gendered titles" are Mrs., Miss, Mr., Madam, etc. It was easy for me to distinguish when Hillary Clinton was referred to by a gendered title, because she has multiple professional titles that she could be referred to like Secretary Clinton. The problem I had was how deciding how to handle "Mrs. Fiorina" when referring to Carly Fiorina, simply because that not only is that a gendered title, but it was also the only professional title that could be used for her because she never held a political office. The same was true for Donald Trump and "Mr.". I decided that in the absence of a political title, Mr. or Mrs. would not be considered gendered.
+Originally, I created the "gendered title" category because I believed it would be helpful in looking at gender-bias. Examples of "gendered titles" are Mrs., Miss, Mr., Madam, etc. It was easy for me to distinguish when Hillary Clinton was referred to by a gendered title, because she has multiple professional titles that she could be referred to like Secretary Clinton. The problem I had was deciding how to handle "Mrs. Fiorina" when referring to Carly Fiorina. This is because not only is that a gendered title, but it was also the only professional title that could be used for her because she never held a political office. The same was true for Donald Trump and "Mr.". I decided that in the absence of a political title, Mr. or Mrs. would not be considered gendered.
 
 I also looked at how [Dana Bash and David Muir](analysis.md#moderators) referred to these eight candidates to see if there were differences in how a moderator and a competitor might refer to the same person.
 
-Finally, I looked to see [changes](analysis.md#differences-across-debates) in the way Hillary Clinton and Donald Trump referred to each other across the three general debates.
+Finally, I looked to see if there were [changes](analysis.md#differences-across-debates) in the way Hillary Clinton and Donald Trump referred to each other across the three general debates.
 
-I have found some interesting results. I don't believe I can make any definite conclusions about gender bias evident in these transcripts with the data I have, but there are some things that we can observe easily. It is no surprise that the moderators we looked at never refer to the candidates by their first name, and almost always refer to them by their professional titles. Interestingly, Dana Bash, a female moderator, used the expression Madam Secretary more often than David Muir did when describing Clinton. When using a professional title for Clinton, Muir did not add gender to the term.
+I have found some interesting results. I don't believe I can make any definite conclusions about gender-bias evident in these transcripts with the data I have, but there are some things that we can observe easily. It is no surprise that the moderators we looked at never refer to the candidates by their first name and almost always refer to them by their professional titles. Interestingly, Dana Bash, a female moderator, used the expression Madam Secretary more often than David Muir did when describing Clinton. When using a professional title for Clinton, Muir did not add gender to the term.
 
 ![png](images/output_296_0.png)
 
 ![png](images/output_324_0.png)
 
-We also found that out of all of the times Clinton is referred to, she is called by a professional title a smaller percentage of the time than the percentage of the each of the male candidates we looked at. Clinton refers to other candidates by their professional title most often, but refers to Donald Trump by his first name most often. This could have been strategic. Clinton could have been trying to take away some of the power Trump might have had by not referring to him with a title. Trump, who in the first debate called Clinton by a professional title most often, completely stopped doing that by the second in an attempt to match the way Clinton referred to him.
+We also found that out of all of the times Clinton is referred to, she is called by a professional title a smaller percentage of the time than the percentage of the each of the male candidates we looked at. Here is a distribution of the different types of referring expressions used by any speaker in the dataset for the 8 candidates mentioned above.
+
+![png](images/output_92_0.png)
+
+Clinton refers to other candidates by their professional title most often, but refers to Donald Trump by his first name most often.
+
+![png](images/output_147_0.png)
+
+This could have been strategic. Clinton could have been trying to take away some of the power Trump might have had by not referring to him with a title. Trump, who in the first debate called Clinton by a professional title most often, completely stopped doing that by the second in an attempt to match the way Clinton referred to him.
 
 ![png](images/output_361_0.png)
 
